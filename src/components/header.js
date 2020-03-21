@@ -2,6 +2,11 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+const LinkStyle = {
+  textDecoration: "none",
+  color: "white",
+  padding: "5px"
+}
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -27,6 +32,8 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+        <a rel="noreferrer noopener" href="https://www.facebook.com/people/Lalitalaxmi-Bhat/100010376881288" style={LinkStyle} target="_blank">Facebook</a>
+        <a rel="noreferrer noopener" href="https://twitter.com/Lalitalaxmibhat" style={LinkStyle} target="_blank">Twitter</a>
     </div>
   </header>
 )
