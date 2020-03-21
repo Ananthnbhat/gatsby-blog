@@ -11,7 +11,7 @@ const LinkStyle = {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
+    <h1>Hare Raama 🙏🏻</h1>
     <p>Welcome to Lalitalaxmi's blog.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image filename="shreepad-hegde.png"/>
